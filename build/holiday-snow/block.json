@@ -1,0 +1,74 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wallpaper/holiday-snow",
+  "version": "0.1.0",
+  "title": "Holiday Snow",
+  "category": "widgets",
+  "icon": "star-filled",
+  "description": "Block that provides falling snow effect. Perfect for holidays.",
+  "parent": [
+    "wallpaper-block/wallpaper"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "spacing": {
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    }
+  },
+  "attributes": {
+    "contentPosition": {
+      "type": "string",
+      "default": "center center"
+    },
+    "overlayColor": {
+      "type": "string",
+      "default": "vivid-cyan-blue"
+    },
+    "customOverlayColor": {
+      "type": "string"
+    },
+    "dimRatio": {
+      "type": "number",
+      "default": 80
+    },
+    "gradient": {
+      "type": "string"
+    },
+    "customGradient": {
+      "type": "string"
+    },
+    "snowColor": {
+      "type": "string",
+      "default": "white"
+    },
+    "customSnowColor": {
+      "type": "string"
+    },
+    "snowColorValue": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "backgroundImageUrl": {
+      "type": "string"
+    },
+    "backgroundImageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "backgroundImageFocalPoint": {
+      "type": "object"
+    }
+  },
+  "textdomain": "wallpaper-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": [
+    "file:./frontend.js"
+  ]
+}

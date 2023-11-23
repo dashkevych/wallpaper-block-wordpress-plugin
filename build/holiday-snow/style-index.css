@@ -1,0 +1,138 @@
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/holiday-snow/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+.wp-block-wallpaper-holiday-snow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: inherit;
+  overflow: hidden;
+  overflow: clip;
+  overflow-wrap: break-word;
+}
+.wp-block-wallpaper-holiday-snow > * {
+  margin-block: 0;
+}
+.wp-block-wallpaper-holiday-snow.is-position-top-left {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wp-block-wallpaper-holiday-snow.is-position-top-center {
+  align-items: flex-start;
+  justify-content: center;
+}
+.wp-block-wallpaper-holiday-snow.is-position-top-right {
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.wp-block-wallpaper-holiday-snow.is-position-center-left {
+  align-items: center;
+  justify-content: flex-start;
+}
+.wp-block-wallpaper-holiday-snow.is-position-center-center {
+  align-items: center;
+  justify-content: center;
+}
+.wp-block-wallpaper-holiday-snow.is-position-center-right {
+  align-items: center;
+  justify-content: flex-end;
+}
+.wp-block-wallpaper-holiday-snow.is-position-bottom-left {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.wp-block-wallpaper-holiday-snow.is-position-bottom-center {
+  align-items: flex-end;
+  justify-content: center;
+}
+.wp-block-wallpaper-holiday-snow.is-position-bottom-right {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-image-background {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-canvas {
+  position: absolute;
+  inset: 0;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-canvas.wallpaper-canvas {
+  max-width: 100%;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-canvas .theme {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-content {
+  position: relative;
+  z-index: 10;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay {
+  z-index: 1;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim {
+  position: absolute;
+  inset: 0;
+  background-color: var(--wp--preset--color--black);
+}
+.wp-block-post-featured-image {
+  position: relative;
+}
+
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-gradient {
+  background-color: transparent;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-0 {
+  opacity: 0;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-10 {
+  opacity: 0.1;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-20 {
+  opacity: 0.2;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-30 {
+  opacity: 0.3;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-40 {
+  opacity: 0.4;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-50 {
+  opacity: 0.5;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-60 {
+  opacity: 0.6;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-70 {
+  opacity: 0.7;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-80 {
+  opacity: 0.8;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-90 {
+  opacity: 0.9;
+}
+.wp-block-wallpaper-holiday-snow .wallpaper-overlay.has-background-dim-100 {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
