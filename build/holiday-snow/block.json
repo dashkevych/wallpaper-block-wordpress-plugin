@@ -26,8 +26,7 @@
       "default": "center center"
     },
     "overlayColor": {
-      "type": "string",
-      "default": "vivid-cyan-blue"
+      "type": "string"
     },
     "customOverlayColor": {
       "type": "string"
